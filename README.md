@@ -21,16 +21,18 @@ How to Run Prog1A:
 3. Use the command 'java Prog1A name.csv' where name would be replaced by the name of the given .csv files
 4. After step 3 is completed, a file called name.bin should be created (remember, name is replaced by whatever .csv file you used)
 
-Example 'make'                                                                                                     
-        'java Prog1A chicagotaxi-nov2016.csv'  (This should create a file called chicagotaxi-nov2016.bin)
+Example
+'make'                                                                                                     
+'java Prog1A chicagotaxi-nov2016.csv'  (This should create a file called chicagotaxi-nov2016.bin)
 
 How to Run Prog2
 1. Use the command 'java Prog2 name.bin' where name would be replaced by the name of the given .bin file created
 2. The program will prompt you enter an integer. The integer you are entering is the Taxi Fare and the program will print the Trip ID, Trip Total, and Byte Offset in which the Trip Total matches the input.
 Note that when inputting a fare price, they are purely integers, no decimals. So if you want to find all matches for an $8.00 fare, then you would input 0800, since inputting 800 could also return a fare of $98.00. 
 
-Example 'java Prog2 chicagotaxi-nov2016.bin'                                
-         '0800'  (6274 Taxi Fares should match your $8.00 inquiry)                                            
-         '800'   (7828 Taxi Fares should match your $*8.00 inquiry, where * means any integer matching 0-9)                           
-         '5500'  (217 Taxi Fares should match your $55.00 inquiry)                                             
-         'exit'  (Terminates program)                                 
+Example 
+'java Prog2 chicagotaxi-nov2016.bin'                                
+'0800'  (6274 Taxi Fares should match your $8.00 inquiry)                                            
+'800'   (7828 Taxi Fares should match your $*8.00 inquiry, where * means any integer matching 0-9)                           
+'5500'  (217 Taxi Fares should match your $55.00 inquiry)                                             
+'exit'  (Terminates program)                                 
