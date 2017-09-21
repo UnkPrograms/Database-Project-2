@@ -1,7 +1,6 @@
 # Database-Project-2
 Second Project of Database in Spring 2017 UofA
 
-
 NOTES: 
 1. The programs were ran and tested on linux machines.
 2. Prog1A and Prog2 were written in Java using the Eclipse IDE
