@@ -23,7 +23,7 @@ How to Run Prog1A:
 
 Example                                                                                                             
 'make'                                                                                                     
-'java Prog1A chicagotaxi-nov2016.csv'  (This should create a file called chicagotaxi-nov2016.bin)
+'java Prog1A chicagotaxi-nov2016.csv'           (This should create a file called chicagotaxi-nov2016.bin)
 
 How to Run Prog2
 1. Use the command 'java Prog2 name.bin' where name would be replaced by the name of the given .bin file created
@@ -32,7 +32,7 @@ Note that when inputting a fare price, they are purely integers, no decimals. So
 
 Example                                                                                                              
 'java Prog2 chicagotaxi-nov2016.bin'                                
-'0800'  (6274 Taxi Fares should match your $8.00 inquiry)                                            
-'800'   (7828 Taxi Fares should match your $*8.00 inquiry, where * means any integer matching 0-9)                           
-'5500'  (217 Taxi Fares should match your $55.00 inquiry)                                             
-'exit'  (Terminates program)                                 
+'0800'                                      (6274 Taxi Fares should match your $8.00 inquiry)                                       
+'800'                                       (7828 Taxi Fares should match your $*8.00 inquiry, where * means any integer matching 0-9)  
+'5500'                                      (217 Taxi Fares should match your $55.00 inquiry)                                           
+'exit'                                      (Terminates program)                                 
