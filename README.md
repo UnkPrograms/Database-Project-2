@@ -21,7 +21,7 @@ How to Run Prog1A:
 3. Use the command 'java Prog1A name.csv' where name would be replaced by the name of the given .csv files
 4. After step 3 is completed, a file called name.bin should be created (remember, name is replaced by whatever .csv file you used)
 
-Example 'make'
+Example 'make'                                                                                                     
         'java Prog1A chicagotaxi-nov2016.csv'  (This should create a file called chicagotaxi-nov2016.bin)
 
 How to Run Prog2
